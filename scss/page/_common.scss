@@ -1,0 +1,50 @@
+@use "../global" as *;
+.c-blue {
+    color: $color-theme;
+}
+.c-trans {
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: $color-white;
+}
+.sec-title {
+    text-align: center;
+}
+.sec-title__en {
+    font-size: rem(21);
+    font-weight: $bold;
+    @include mq(md) {
+        font-size: rem(18);
+    }
+}
+.sec-title__main {
+    margin-top: rem(13);
+    @include mq(md) {
+        margin-top: rem(10);
+    }
+}
+.flex-direc-column {
+    flex-direction: column;
+}
+.t-align-c {
+    text-align: center;
+}
+.drop-shadow-1 {
+    box-shadow: rem(3) rem(3) rem(5) $color-shadow;
+}
+.js-fadeInUp {
+    opacity: 0 ;
+    visibility: hidden;
+    transform: translateY(1.5rem);
+    transition: opacity 1.5s, visibility 1.5s, transform 1.5s;
+}
+.js-fadeInUp {
+    &.visible {
+        opacity: 1 ;
+        visibility: visible;    
+        transform: translateY(0);
+    }
+}
+section {
+    font-feature-settings: "palt";
+}
