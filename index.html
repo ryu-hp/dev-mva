@@ -20,7 +20,9 @@
   <!-- css -->
   <link rel="stylesheet" href="./css/style.css">
   <!-- フォント -->
-  <link rel="stylesheet" href="https://use.typekit.net/lro8nfa.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
   <!-- JavaScript -->
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
   <link
@@ -30,6 +32,190 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </head>
 <body>
+  <div class="wrapper">
+    <div class="sp-wrapper">
+      <div class="sp-wrapper__inner">
+        <div class="sp-wrapper__top sp-contents">
+          <div class="sp-contents__inner">
+            <div class="sp-contents__top">
+              <img src="./image/sp-contents-top.png" alt="大手企業CMを手掛けた会社が運営">
+            </div>
+            <div class="sp-contents__company">
+              <img src="./image/sp-contents-company.svg" alt="MVA">
+            </div>
+            <p class="sp-contents__text">即戦力になれる<br>動画編集スクール</p>
+          </div>
+        </div>
+        <div class="sp-wrapper__shool sp-shool">
+          <img src="./image/school-contact.jpg" alt="生徒募集中！10名限定マンツーマンレッスン">
+        </div>
+        <nav class="sp-wrapper__nav sp-nav">
+          <p class="sp-nav__contact"><a href="#contact">スクール申込み</a></p>
+          <ul class="sp-nav__list">
+            <li class="sp-nav__list-item"><a href="#abut">概要</a></li>
+            <li class="sp-nav__list-item"><a href="#program">プログラム</a></li>
+            <li class="sp-nav__list-item"><a href="#student">受講対象者</a></li>
+            <li class="sp-nav__list-item"><a href="#support">サポート</a></li>
+            <li class="sp-nav__list-item"><a href="#price">料金</a></li>
+          </ul>
+        </nav>
+        <div class="sp-wrapper__sns sp-x">
+          <a href=""  target="_blank" rel="noopener noreferrer">
+            <img src="./image/x-banner.jpg" alt="X 旧Twitter">
+          </a>
+        </div>
+        <p class="sp-wrapper__copy sp-copy">&copy; 2024 MVアカデミー</p>
+      </div>
+    </div>
+    <div class="pc-wrapper">
+      <div class="pc-wrapper__inner">
+        <section id = "fv" class = "fv">
+          <div class="fv__inner">
+            <div class="fv__contents">
+              <p class="fv__text">Work - Ready</p>
+              <div class="fv__icon-contents">
+                <div class="fv__icon"><img src="./image/fv-movie-icon.png" alt="movie"></div>
+                <div class="fv__icon"><img src="./image/fv-photo-icon.png" alt="photo"></div>
+              </div>
+              <div class="fv__scroll">
+                <p class="fv__scroll-text"><img src="./image/scroll-text.svg" alt="explore more"></p>
+                <div class="fv__scroll-image"><img src="./image/scroll-arrow.svg" alt="explore more"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id = "about" class = "about">
+          <div class="about__inner">
+            <p class="about__main-description font-weight-bold">
+              必要なのは「編集スキル」ではなかった。<br>
+              「<span class="color-accent">現場で即戦力</span>」となる為に動画編集で「<span class="color-accent">必要なこと</span>」が学べる<br>
+              クリエイターサロン
+            </p>
+            <p class="about__sub-text font-weight-bold">「 即戦力となる動画編集スキルを習得する」</p>
+            <p class="about__description">
+              Vlog、MV、ショートフィルム・・・一眼カメラやスマートフォンなど、機種に依存しない撮影技法から、素材をPremiereで編集して公開するまでの一連のワークフローを学び、一人または少数の完パケ動画制作技術を習得します。さらに、カラーや演出技法を加えることで、一歩進んだシネマティックな動画表現ができる動画クリエイターを目指します。
+            </p>
+            <dl class="about__table">
+              <div class="about__table-item about__table-item--col-3">
+                <dt class="about__table-item-head">受講期間</dt>
+                <dd class="about__table-item-description">6ヶ月<span class="about__table-item-description--small">（半年）</span></dd>
+              </div>
+              <div class="about__table-item about__table-item--col-3">
+                <dt class="about__table-item-head">受講時間</dt>
+                <dd class="about__table-item-description">約120時間</dd>
+              </div>
+              <div class="about__table-item about__table-item--col-3">
+                <dt class="about__table-item-head">定員</dt>
+                <dd class="about__table-item-description">14名</dd>
+              </div>
+              <div class="about__table-item about__table-item--col-3">
+                <dt class="about__table-item-head">スタジオ</dt>
+                <dd class="about__table-item-description">オンライン</dd>
+              </div>
+              <div class="about__table-item about__table-item--col-2">
+                <dt class="about__table-item-head">料金</dt>
+                <dd class="about__table-item-description about__table-item-description--last">240,000円（税込 264,000円）<br><span class="about__table-item-description--small">※12カ月分割払いも対応しています。</span></dd>
+              </div>
+            </dl>
+          </div>
+        </section>
+        <section id = "program" class = "program">
+          <div class="program__inner">
+            <div class="section-title">
+              <p class="section-title__sub">プログラム</p>
+              <h2 class="section-title__main">program</h2>
+            </div>
+            <div class="program__body">
+              <div class="program__top-contents">
+                <h3 class="program__top-head">セッションプログラム</h3>
+                <div class="program__top-body">
+                  <div class="program__top-item programItem">
+                    <div class="programItem__head"><span>第1回</span></div>
+                    <div class="programItem__title">映像制作工程<br>の理解</div>
+                    <div class="programItem__description">
+                      <ul class="programItem__list">
+                        <li class="programItem__list-item">映像を制作する=何をどのような仕組みで可視化するのかを理解する</li>
+                        <li class="programItem__list-item">クライアント（制作依頼者）の要望の具現化の為のツールであることを理解する</li>
+                        <li class="programItem__list-item">創造性を育てる</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="program__top-item programItem">
+                    <div class="programItem__head"><span>第2回</span></div>
+                    <div class="programItem__title">ディレクションとは</div>
+                    <div class="programItem__description">
+                      <ul class="programItem__list">
+                        <li class="programItem__list-item">ディレクションの基礎概念を取得する</li>
+                        <li class="programItem__list-item">引き出しを沢山持つ</li>
+                        <li class="programItem__list-item">1日10分、企画を考える習慣をつける</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="program__bottom-contents">
+                <div class="program__bottom-item programItem">
+                  <h3 class="programItem__head">受講対象者</h3>
+                  <div class="programItem__body">
+                    <ul class="programItem__list">
+                      <li class="programItem__list-item programItem__list-item--dot">動画編集経験がある方（どのようなレベルでも問題ありません。）</li>
+                      <li class="programItem__list-item programItem__list-item--dot">周辺にオンラインセッションや動画編集が環境がある。</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="program__bottom-item programItem">
+                  <h3 class="programItem__head">サポート</h3>
+                  <div class="programItem__body">
+                    <ul class="programItem__list">
+                      <li class="programItem__list-item programItem__list-item--square">オンラインセッションをマンツーマンで受講いただけます。</li>
+                      <li class="programItem__list-item programItem__list-item--square">受講生動詞で音楽や映像制作について語り合える、横の繋がりができます。</li>
+                      <li class="programItem__list-item programItem__list-item--square">実際の撮影現場の同行、見学などリアルな現場を経験できます。</li>
+                      <li class="programItem__list-item programItem__list-item--square">弊社で請け負う制作案件などをご依頼する可能性がございます。</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="program__bottom-item programItem">
+                  <h3 class="programItem__head">その他</h3>
+                  <div class="programItem__body">
+                    <ul class="programItem__list">
+                      <li class="programItem__list-item programItem__list-item--dot">支払い方法は<span class="programItem__list-item--large color-accent"現金></span>か<span class="programItem__list-item--large color-accent">PayPal</span>での対応をしております</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="program__bottom-item programItem">
+                  <h3 class="programItem__head">料金</h3>
+                  <dl class="programItem__body">
+                    <div class="programItem__price">
+                      <dt class="programItem__price-head">一括払い</dt>
+                      <dd class="programItem__price-description">240,000円<span class="programItem__price-description--small">（税込264,000円）</span></dd>
+                    </div>
+                    <div class="programItem__price">
+                      <dt class="programItem__price-head">12回払い</dt>
+                      <dd class="programItem__price-description">24,000円<span class="programItem__price-description--small">（税込26,400円）</span></dd>
+                    </div>
+                  </dl>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id = "teacher" class = "teacher">
+          <div class="teacher__inner">
+            <div class="section-title">
+              <p class="section-title__sub">講師紹介</p>
+              <h2 class="section-title__main">teacher</h2>
+            </div>
+            <div class="teacher__body">
+              <p class="teacher__name">K・U（メイン講師）</p>
+              <p class="teacher__description">
+                適すtお
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
   <script defer src="./js/script.js"></script>
 </body>
 </html>

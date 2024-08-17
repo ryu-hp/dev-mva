@@ -31,24 +31,20 @@ $mediaquerys: (
     @return math.div($font_size, $window_width) * 100vw;
 }
 
-$base-font-family:  "hiragino-kaku-gothic-pron", sans-serif;
-$second-font-family: 'FP-ヒラギノ角ゴ StdN W8', sans-serif ;
-$bold : 600;
-$normal : 300;
+$base-font-family:  "Noto Sans JP", sans-serif, sans-serif;
+$second-font-family: 'Lato';
+$eng-font-family: 'Inter' ;
+$bold : 700;
+$medium : 500;
+$normal : 400;
 
 $color-black: #000;
 $color-white: #fff;
-$color-theme: #41b5d0;
-$color-blue: #2983e2;
-$color-gray: #999999;
-$color-yellow: #fcee21;
-$color-light-blue: #9bd2e3;
-$color-contact: #64c2db;
-$color-download:  linear-gradient(90deg, #39b54a 0%, #4eddaa 100%);
-$color-account: linear-gradient(90deg, #2983e2 0%, #3fb0ed 100%);
-$color-shadow: rgba(0,0,0,.3);
+$color-theme: #000;
+$color-accent: #FD0000;
+$color-fv-title: linear-gradient(-90deg, #F16F63 0%, #FAF9F5 0%, #F16F63 100%);
 
-$inner: 1000px;
+$inner: 875px;
 
 $padding-pc: rem(25);
-$padding-sp: rem(21);
+$padding-sp: rem(15);
