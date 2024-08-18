@@ -230,13 +230,13 @@ select::-ms-expand {
   }
 }
 
-.sp-wapper {
+.sp-wrapper {
   background: #fff;
   padding-top: 4rem;
   padding-bottom: 2.6875rem;
 }
 
-.sp-wapper__inner {
+.sp-wrapper__inner {
   padding-left: 2.9861111111vw;
   padding-right: 2.9861111111vw;
 }

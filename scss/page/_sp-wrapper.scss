@@ -1,11 +1,11 @@
 @use "../global" as *;
 
-.sp-wapper {
+.sp-wrapper {
   background: $color-white;
   padding-top: rem(64);
   padding-bottom: rem(43);
 }
-.sp-wapper__inner {
+.sp-wrapper__inner {
   padding-left: calc(43 * 100vw / 1440);
   padding-right: calc(43 * 100vw / 1440);
 }
