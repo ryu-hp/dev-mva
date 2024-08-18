@@ -1,0 +1,17 @@
+@use "../global" as *;
+
+.wrapper {
+  display: flex;
+}
+.sp-wrapper {
+  position: sticky ;
+  width: calc(316 / 1440 * 100vw);
+  max-width:rem(316);
+}
+.pc-wrapper {
+  width: calc(1124 / 1440 * 100vw);
+  background: $color-theme;
+  @media screen and (min-width:1441px) {
+    width: 100%;
+  }
+}
