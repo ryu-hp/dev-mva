@@ -8,6 +8,10 @@
 .sp-wrapper__inner {
   padding-left: calc(43 * 100vw / 1440);
   padding-right: calc(43 * 100vw / 1440);
+  @media screen and (min-width:1441px) {
+    padding-left: rem(43);
+    padding-right: rem(43);
+  }
 }
 .sp-contents {
   background: $color-black;

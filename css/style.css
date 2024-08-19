@@ -242,6 +242,12 @@ select::-ms-expand {
   padding-left: 2.9861111111vw;
   padding-right: 2.9861111111vw;
 }
+@media screen and (min-width: 1441px) {
+  .sp-wrapper__inner {
+    padding-left: 2.6875rem;
+    padding-right: 2.6875rem;
+  }
+}
 
 .sp-contents {
   background: #333;
@@ -324,6 +330,106 @@ select::-ms-expand {
   margin-top: 0.725rem;
 }
 
+.fv {
+  max-width: 62.375rem;
+  width: calc(100% + 7.875rem);
+  margin-left: -3.9375rem;
+  background-image: url(../image/fv-bg-image.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.fv__inner {
+  padding: 1.70125rem 1.6875rem;
+  position: relative;
+}
+
+.fv__contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fv__text {
+  background: -webkit-gradient(linear, right top, left top, from(#F16F63), color-stop(0%, #FAF9F5), to(#F16F63));
+  background: linear-gradient(-90deg, #F16F63 0%, #FAF9F5 0%, #F16F63 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fv__icon-contents {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.6875rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fv__icon {
+  max-width: 4rem;
+  width: 100%;
+}
+
+.fv__scroll {
+  position: absolute;
+  max-width: 12.5rem;
+  width: 100%;
+  bottom: 0;
+  right: -2.0625rem;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+}
+
+.fv__scroll-arrow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  max-width: 1.150625rem;
+  width: 100%;
+}
+
+.fv__scroll-text {
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+  -webkit-animation: rotateInfinite 7s linear infinite;
+          animation: rotateInfinite 7s linear infinite;
+}
+
+@-webkit-keyframes rotateInfinite {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateInfinite {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
 .color-accent {
   color: #FD0000;
 }

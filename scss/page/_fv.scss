@@ -1,0 +1,66 @@
+@use "../global" as *;
+
+.fv {
+  max-width:rem(998);
+  width: calc(100% + (rem(63) * 2));
+  margin-left: rem(-63);
+  background-image: url(../image/fv-bg-image.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.fv__inner {
+  padding: rem(27.22) rem(27);
+  position: relative;
+}
+.fv__contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fv__text {
+  background: $color-fv-title;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.fv__icon-contents {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  gap: rem(11);
+  align-items: center;
+}
+.fv__icon {
+  max-width:rem(64);
+  width:100%;
+}
+.fv__scroll {
+  position: absolute;
+  max-width:rem(200);
+  width:100%;
+  bottom: 0;
+  right: rem(-33);
+  transform: translateY(50%);
+}
+.fv__scroll-arrow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width:rem(18.41);
+  width:100%;
+}
+.fv__scroll-text {
+  transform: rotate(0);
+  animation: rotateInfinite 7s linear infinite;
+}
+
+@keyframes rotateInfinite {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

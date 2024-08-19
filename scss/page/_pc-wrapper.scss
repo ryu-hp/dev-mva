@@ -1,0 +1,13 @@
+@use "../global" as *;
+.pc-wrapper {
+  padding-top: rem(62.78);
+  padding-bottom: rem(198);
+}
+.pc-wrapper__inner {
+  padding-left: calc(126 * 100vw / 1440);
+  padding-right: calc(126 * 100vw / 1440);
+  @media screen and (min-width:1441px) {
+    padding-left: rem(126);
+    padding-right: rem(126);
+  }
+}
