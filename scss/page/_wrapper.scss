@@ -6,6 +6,8 @@
 }
 .sp-wrapper {
   position: sticky ;
+  top: 0;
+  left: 0;
   width: calc(316 / 1440 * 100vw);
   max-width:rem(316);
 }
