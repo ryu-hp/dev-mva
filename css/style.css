@@ -790,6 +790,7 @@ select::-ms-expand {
   right: 1.5rem;
   width: 4.375rem;
   height: 4.375rem;
+  cursor: pointer;
 }
 
 .color-accent {
