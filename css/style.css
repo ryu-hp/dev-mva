@@ -643,6 +643,58 @@ select::-ms-expand {
   left: 0.3125rem;
 }
 
+.program__bottom-contents {
+  margin-top: 5.25rem;
+}
+
+.programContent__head,
+.programContent__body {
+  border: 1px solid #333;
+  letter-spacing: 0.1em;
+}
+
+.programContent__head {
+  background: #585858;
+  color: #fff;
+  text-align: center;
+  line-height: 1;
+  padding-top: 1.5625rem;
+  padding-bottom: 1.6875rem;
+}
+
+.programContent__body {
+  background: #fff;
+  padding: 1.6875rem 0.5425rem 1.734375rem;
+  font-size: 0.875rem;
+}
+
+.programContent__list-item {
+  padding-left: 0.875rem;
+  position: relative;
+}
+
+.programContent__list-item::before {
+  position: absolute;
+  display: inline-block;
+  content: "";
+  background: #333;
+}
+
+.programContent__list-item--dot::before {
+  width: 0.3125rem;
+  height: 0.3125rem;
+  border-radius: 50%;
+  left: calc((100% - 0.3125rem) / 2);
+  top: calc((100% - 0.3125rem) / 2);
+}
+
+.programContent__list-item--square::before {
+  width: 0.6875rem;
+  height: 0.6875rem;
+  left: calc((100% - 0.6875rem) / 2);
+  top: calc((100% - 0.6875rem) / 2);
+}
+
 .color-accent {
   color: #FD0000;
 }
