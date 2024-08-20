@@ -731,6 +731,37 @@ select::-ms-expand {
   font-size: 0.8125rem;
 }
 
+.teacher {
+  margin-top: 4rem;
+}
+
+.teacher__head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.teacher__name {
+  width: calc(100% - 6.25rem);
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.teacher__image {
+  width: 6.25rem;
+}
+
+.teacher__description {
+  margin-top: 1.625rem;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
 .color-accent {
   color: #FD0000;
 }

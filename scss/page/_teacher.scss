@@ -1,0 +1,24 @@
+@use "../global" as *;
+
+.teacher {
+  margin-top: rem(64);
+}
+.teacher__head {
+  display: flex;
+  align-items: center;
+}
+.teacher__name {
+  width: calc(100% - rem(100));
+  font-size: rem(32);
+  font-weight: $bold;
+  letter-spacing: 0.1em;
+}
+.teacher__image {
+  width: rem(100);
+}
+.teacher__description {
+  margin-top: rem(26);
+  font-size: rem(16);
+  font-weight: $bold;
+  letter-spacing: 0.1em;
+}
