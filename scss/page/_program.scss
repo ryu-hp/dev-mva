@@ -97,13 +97,13 @@
   width: rem(5);
   height: rem(5);
   border-radius: 50%;
-  left:  rem(5);
+  left: calc((rem(14) - rem(5)) / 2);
   top: calc((100% - rem(5)) / 2);
 }
 .programContent__list-item--square::before {
   width: rem(11);
   height: rem(11);
-  left: rem(11);
+  left: calc((rem(14) - rem(11)) / 2);
   top: calc((100% - rem(11)) / 2);
 }
 .programContent__price {
