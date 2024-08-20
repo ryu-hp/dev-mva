@@ -711,6 +711,7 @@ select::-ms-expand {
   text-align: center;
   font-family: "Lato";
   border: 1px solid #333;
+  letter-spacing: 0;
 }
 
 .programContent__price-head {
