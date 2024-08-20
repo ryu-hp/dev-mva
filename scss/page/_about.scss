@@ -23,6 +23,9 @@
 }
 .about__table {
   margin-top: rem(42.71);
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 .about__table-item {
   display: flex;
