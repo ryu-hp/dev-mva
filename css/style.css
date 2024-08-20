@@ -787,6 +787,14 @@ select::-ms-expand {
   width: calc((100% - 1.5rem) / 2);
 }
 
+.totop {
+  position: fixed;
+  bottom: 4.6875rem;
+  right: 1.5rem;
+  width: 4.375rem;
+  height: 4.375rem;
+}
+
 .color-accent {
   color: #FD0000;
 }

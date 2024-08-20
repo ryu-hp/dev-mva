@@ -1,0 +1,9 @@
+@use "../global" as *;
+
+.totop {
+  position: fixed;
+  bottom: rem(75);
+  right: rem(24);
+  width: rem(70);
+  height: rem(70);
+}
