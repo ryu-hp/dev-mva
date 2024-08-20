@@ -7,6 +7,7 @@
 .teacher__head {
   display: flex;
   align-items: center;
+  gap: rem(24);
 }
 .teacher__name {
   width: calc(100% - rem(100));
