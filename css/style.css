@@ -709,20 +709,25 @@ select::-ms-expand {
 .programContent__price-description {
   padding: 2.828125rem 1.125rem;
   text-align: center;
-  font-size: 0.875rem;
   font-family: "Lato";
   border: 1px solid #333;
 }
 
 .programContent__price-head {
   width: 100%;
+  font-size: 0.875rem;
 }
 
 .programContent__price-description {
+  font-size: 1.125rem;
   text-align: right;
   width: 14.625rem;
   -ms-flex-negative: 0;
       flex-shrink: 0;
+}
+
+.programContent__price-description--small {
+  font-size: 0.8125rem;
 }
 
 .color-accent {
