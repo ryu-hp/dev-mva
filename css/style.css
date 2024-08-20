@@ -544,6 +544,8 @@ select::-ms-expand {
   font-weight: 700;
   -ms-flex-preferred-size: 6.074375rem;
       flex-basis: 6.074375rem;
+  padding-top: 1.338125rem;
+  padding-bottom: 1.436875rem;
 }
 
 .about__table-item-description {
@@ -552,6 +554,8 @@ select::-ms-expand {
       -ms-flex-pack: start;
           justify-content: flex-start;
   width: 100%;
+  padding-right: 0.80125rem;
+  padding-left: 0.80125rem;
 }
 
 .about__table-item-description--small {

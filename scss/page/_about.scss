@@ -51,11 +51,15 @@
   justify-content: center;
   font-weight: $bold;
   flex-basis: rem(97.19);
+  padding-top: rem(21.41);
+  padding-bottom: rem(22.99);
 }
 .about__table-item-description {
   background: $color-white;
   justify-content: flex-start;
   width: 100%;
+  padding-right: rem(12.82);
+  padding-left: rem(12.82);
 }
 .about__table-item-description--small {
   font-size: rem(10.4);
