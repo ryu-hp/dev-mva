@@ -763,6 +763,27 @@ select::-ms-expand {
   letter-spacing: 0.1em;
 }
 
+.achievements {
+  margin-top: 4rem;
+}
+
+.achievements__contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.609375rem 1.5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.achievements__content {
+  width: calc((100% - 1.5rem) / 2);
+}
+
 .color-accent {
   color: #FD0000;
 }

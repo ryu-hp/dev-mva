@@ -1,0 +1,14 @@
+@use "../global" as *;
+
+.achievements {
+  margin-top: rem(64);
+}
+.achievements__contents {
+  display: flex;
+  gap: rem(25.75) rem(24);
+  justify-content: center;
+  align-items: center;
+}
+.achievements__content {
+  width: calc((100% - rem(24)) / 2);
+}
