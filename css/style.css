@@ -672,6 +672,10 @@ select::-ms-expand {
   font-size: 0.875rem;
 }
 
+.programContent__body--padding-0 {
+  padding: 0;
+}
+
 .programContent__list-item {
   padding-left: 0.875rem;
   position: relative;
