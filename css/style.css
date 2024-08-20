@@ -598,6 +598,7 @@ select::-ms-expand {
           align-items: center;
   color: #fff;
   line-height: 1.5;
+  letter-spacing: 0.1em;
 }
 
 .programItem__head {
@@ -605,6 +606,7 @@ select::-ms-expand {
       flex-basis: 5.625rem;
   -ms-flex-negative: 0;
       flex-shrink: 0;
+  font-size: 1rem;
 }
 
 .programItem__title {
@@ -612,6 +614,7 @@ select::-ms-expand {
       flex-basis: 14.4375rem;
   -ms-flex-negative: 0;
       flex-shrink: 0;
+  font-size: 0.875rem;
 }
 
 .programItem__description {
@@ -620,6 +623,7 @@ select::-ms-expand {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  font-size: 1rem;
 }
 
 .programItem__list-item {
@@ -635,9 +639,7 @@ select::-ms-expand {
   height: 0.3125rem;
   background: #fff;
   border-radius: 50%;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  top: 0.59375rem;
   left: 0.3125rem;
 }
 

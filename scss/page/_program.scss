@@ -24,19 +24,23 @@
   align-items: center;
   color: $color-white;
   line-height: 1.5;
+  letter-spacing: 0.1em;
 }
 .programItem__head {
   flex-basis: rem(90);
   flex-shrink: 0;
+  font-size: rem(16);
 }
 .programItem__title {
   flex-basis: rem(231);
   flex-shrink: 0;
+  font-size: rem(14);
 }
 .programItem__description {
   width: 100%;
   padding: rem(21) rem(16);
   justify-content: flex-start;
+  font-size: rem(16);
 }
 .programItem__list-item {
  padding-left: rem(15);
@@ -50,7 +54,6 @@
   height: rem(5);
   background: $color-white;
   border-radius: 50%;
-  top: 50%;
-  transform: translateY(-50%);
+  top: calc((rem(16) * 1.5 - rem(5)) / 2);
   left: rem(5);
 }
