@@ -51,6 +51,7 @@
   justify-content: center;
   font-weight: $bold;
   flex-basis: rem(97.19);
+  flex-shrink: 0;
   padding-top: rem(21.41);
   padding-bottom: rem(22.99);
 }

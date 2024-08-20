@@ -3,3 +3,32 @@
 .program {
   margin-top: rem(64);
 }
+.program__top-head {
+  background: #585858;
+  color: $color-white;
+  text-align: center;
+  line-height: 1;
+  padding-top: rem(25);
+  padding-bottom: rem(27);
+}
+.programItem__head ,
+.programItem__title ,
+.programItem__description {
+  border: 1px solid $color-white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $color-white;
+}
+.programItem__head {
+  flex-basis: rem(90);
+  flex-shrink: 0;
+}
+.programItem__title {
+  flex-basis: rem(231);
+  flex-shrink: 0;
+}
+.programItem__description {
+  width: 100%;
+  padding: rem(21) rem(16);
+}
