@@ -772,6 +772,10 @@ select::-ms-expand {
   margin-top: 4rem;
 }
 
+.achievements__title {
+  margin-bottom: 5.171875rem !important;
+}
+
 .achievements__contents {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -795,6 +799,10 @@ select::-ms-expand {
   width: 4.375rem;
   height: 4.375rem;
   cursor: pointer;
+}
+
+.contact {
+  margin-top: 11.203125rem;
 }
 
 .color-accent {

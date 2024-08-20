@@ -3,6 +3,9 @@
 .achievements {
   margin-top: rem(64);
 }
+.achievements__title {
+  margin-bottom: rem(82.75) !important;
+}
 .achievements__contents {
   display: flex;
   gap: rem(25.75) rem(24);
