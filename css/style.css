@@ -699,6 +699,25 @@ select::-ms-expand {
   top: calc((100% - 0.6875rem) / 2);
 }
 
+.programContent__price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.programContent__price-head,
+.programContent__price-description {
+  padding: 2.828125rem 1.125rem;
+  text-align: center;
+  font-size: 0.875rem;
+  font-family: "Lato";
+  border: 1px solid #333;
+}
+
+.programContent__price-description {
+  text-align: right;
+}
+
 .color-accent {
   color: #FD0000;
 }
