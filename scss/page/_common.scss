@@ -5,3 +5,22 @@
 .font-weight-bold {
     font-weight: $bold;
 }
+
+// section-title
+.section-title {
+    color: #FAF9F5;
+    padding-bottom: rem(4);
+    border-bottom: rem(3) solid #FAF9F5;
+}
+.section-title__sub {
+    font-size: rem(16);
+    font-weight: 600;
+    letter-spacing: 1.6px;
+}
+.section-title__main {
+    font-size: rem(64);
+    line-height: 1;
+    font-family: $eng-font-family;
+    margin-top: rem(7);
+
+}

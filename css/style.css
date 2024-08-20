@@ -562,10 +562,33 @@ select::-ms-expand {
   font-size: 0.65rem;
 }
 
+.program {
+  margin-top: 4rem;
+}
+
 .color-accent {
   color: #FD0000;
 }
 
 .font-weight-bold {
   font-weight: 700;
+}
+
+.section-title {
+  color: #FAF9F5;
+  padding-bottom: 0.25rem;
+  border-bottom: 0.1875rem solid #FAF9F5;
+}
+
+.section-title__sub {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1.6px;
+}
+
+.section-title__main {
+  font-size: 4rem;
+  line-height: 1;
+  font-family: "Inter";
+  margin-top: 0.4375rem;
 }
