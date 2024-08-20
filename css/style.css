@@ -688,14 +688,14 @@ select::-ms-expand {
   width: 0.3125rem;
   height: 0.3125rem;
   border-radius: 50%;
-  left: calc((100% - 0.3125rem) / 2);
+  left: 0.3125rem;
   top: calc((100% - 0.3125rem) / 2);
 }
 
 .programContent__list-item--square::before {
   width: 0.6875rem;
   height: 0.6875rem;
-  left: calc((100% - 0.6875rem) / 2);
+  left: 0.6875rem;
   top: calc((100% - 0.6875rem) / 2);
 }
 
