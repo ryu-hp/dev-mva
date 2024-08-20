@@ -773,9 +773,6 @@ select::-ms-expand {
   display: -ms-flexbox;
   display: flex;
   gap: 1.609375rem 1.5rem;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
