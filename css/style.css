@@ -577,6 +577,12 @@ select::-ms-expand {
   padding-bottom: 1.6875rem;
 }
 
+.programItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .programItem__head,
 .programItem__title,
 .programItem__description {
