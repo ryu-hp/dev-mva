@@ -597,6 +597,7 @@ select::-ms-expand {
       -ms-flex-align: center;
           align-items: center;
   color: #fff;
+  line-height: 1.5;
 }
 
 .programItem__head {
@@ -616,6 +617,28 @@ select::-ms-expand {
 .programItem__description {
   width: 100%;
   padding: 1.3125rem 1rem;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.programItem__list-item {
+  padding-left: 0.9375rem;
+  position: relative;
+}
+
+.programItem__list-item::before {
+  position: absolute;
+  display: inline-block;
+  content: "";
+  width: 0.3125rem;
+  height: 0.3125rem;
+  background: #fff;
+  border-radius: 50%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 0.3125rem;
 }
 
 .color-accent {
