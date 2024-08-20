@@ -8,6 +8,7 @@
 .sp-wrapper__inner {
   padding-left: calc(43 * 100vw / 1440);
   padding-right: calc(43 * 100vw / 1440);
+  text-align: center;
   @media screen and (min-width:1441px) {
     padding-left: rem(43);
     padding-right: rem(43);
@@ -31,12 +32,16 @@
   width:100%;
   margin-right:auto;
   margin-left:auto;
+  margin-top: rem(19.7);
 }
 .sp-contents__text {
   font-weight: $bold;
   font-size: rem(21.41);
   letter-spacing: 0.1em;
   color: $color-white;
+  margin-top: rem(13.35);
+  display: inline-block;
+  text-align: left;
 }
 .sp-wrapper__shool {
   display: block;

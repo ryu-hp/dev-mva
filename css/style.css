@@ -241,6 +241,7 @@ select::-ms-expand {
 .sp-wrapper__inner {
   padding-left: 2.9861111111vw;
   padding-right: 2.9861111111vw;
+  text-align: center;
 }
 @media screen and (min-width: 1441px) {
   .sp-wrapper__inner {
@@ -269,6 +270,7 @@ select::-ms-expand {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 1.23125rem;
 }
 
 .sp-contents__text {
@@ -276,6 +278,9 @@ select::-ms-expand {
   font-size: 1.338125rem;
   letter-spacing: 0.1em;
   color: #fff;
+  margin-top: 0.834375rem;
+  display: inline-block;
+  text-align: left;
 }
 
 .sp-wrapper__shool {
