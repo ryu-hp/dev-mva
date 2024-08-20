@@ -714,8 +714,15 @@ select::-ms-expand {
   border: 1px solid #333;
 }
 
+.programContent__price-head {
+  width: 100%;
+}
+
 .programContent__price-description {
   text-align: right;
+  width: 14.625rem;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 
 .color-accent {
