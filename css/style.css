@@ -647,6 +647,10 @@ select::-ms-expand {
   margin-top: 5.25rem;
 }
 
+.program__bottom-item + .program__bottom-item {
+  margin-top: 1.25rem;
+}
+
 .programContent__head,
 .programContent__body {
   border: 1px solid #333;

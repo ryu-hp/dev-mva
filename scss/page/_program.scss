@@ -60,6 +60,9 @@
 .program__bottom-contents {
   margin-top: rem(84);
 }
+.program__bottom-item + .program__bottom-item {
+  margin-top: rem(20);
+}
 
 // programContet
 .programContent__head,
