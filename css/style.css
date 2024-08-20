@@ -330,19 +330,56 @@ select::-ms-expand {
   margin-top: 0.725rem;
 }
 
+.pc-wrapper {
+  padding-top: 3.92375rem;
+  padding-bottom: 12.375rem;
+}
+
+.pc-wrapper__inner {
+  padding-left: 8.75vw;
+  padding-right: 8.75vw;
+}
+@media screen and (min-width: 1441px) {
+  .pc-wrapper__inner {
+    padding-left: 7.875rem;
+    padding-right: 7.875rem;
+  }
+}
+
 .fv {
   max-width: 62.375rem;
   width: calc(100% + 7.875rem);
-  margin-left: -3.9375rem;
   background-image: url(../image/fv-bg-image.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-transform: translateX(-3.9375rem);
+          transform: translateX(-3.9375rem);
+}
+
+.fv::before {
+  width: 100%;
+  display: block;
+  content: "";
+  padding-top: 49.8216432866%;
+}
+
+.fv::before {
+  width: 100%;
+  display: block;
+  content: "";
+  padding-top: 49.8216432866%;
 }
 
 .fv__inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   padding: 1.70125rem 1.6875rem;
-  position: relative;
 }
 
 .fv__contents {
@@ -405,8 +442,8 @@ select::-ms-expand {
 .fv__scroll-text {
   -webkit-transform: rotate(0);
           transform: rotate(0);
-  -webkit-animation: rotateInfinite 7s linear infinite;
-          animation: rotateInfinite 7s linear infinite;
+  -webkit-animation: rotateInfinite 10s linear infinite;
+          animation: rotateInfinite 10s linear infinite;
 }
 
 @-webkit-keyframes rotateInfinite {

@@ -3,15 +3,32 @@
 .fv {
   max-width:rem(998);
   width: calc(100% + (rem(63) * 2));
-  margin-left: rem(-63);
   background-image: url(../image/fv-bg-image.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  margin-right:auto;
+  margin-left:auto;
+  transform: translateX(rem(-63));
+}
+.fv::before{
+  width: 100%;
+  display: block;
+  content: "";
+  padding-top: calc(497.22 / 998 * 100%) ;
+}
+.fv::before{
+  width: 100%;
+  display: block;
+  content: "";
+  padding-top: calc(497.22 / 998 * 100%) ;
 }
 .fv__inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
   padding: rem(27.22) rem(27);
-  position: relative;
 }
 .fv__contents {
   display: flex;
@@ -53,7 +70,7 @@
 }
 .fv__scroll-text {
   transform: rotate(0);
-  animation: rotateInfinite 7s linear infinite;
+  animation: rotateInfinite 10s linear infinite;
 }
 
 @keyframes rotateInfinite {
