@@ -2,6 +2,10 @@
 .pc-wrapper {
   padding-top: rem(62.78);
   padding-bottom: rem(198);
+  @include mq(md) {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 }
 .pc-wrapper__inner {
   padding-left: calc(126 * 100vw / 1440);

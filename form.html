@@ -1,0 +1,25 @@
+<div class="form-item">
+  <label for="your-name" class="form-item__label">お名前<span class="form-item__label--category">*</span></label>
+  [text* your-name id:your-name class:form-item__input placeholder "白木　龍之介"]
+</div>
+<div class="form-item">
+  <label for="your-email" class="form-item__label">E-mail<span class="form-item__label--category">*</span></label>
+  [email* your-email id:your-email class:form-item__input placeholder "sample@mva.co.jp"]
+</div>
+<div class="form-item">
+  <label for="your-tel" class="form-item__label">電話番号<span class="form-item__label--category">*</span></label>
+  [text* your-tel id:your-tel class:form-item__input placeholder "000-0000-0000"]
+</div>
+<div class="form-item form-item--textarea">
+  <label for="your-content" class="form-item__label">お問い合わせ内容</label>
+  [textarea* your-content id:your-content class:form-item__input class:form-item__input--textarea]
+</div>
+<div class="form-item form-item--check">
+  [checkbox* your-check id:your-check class:form-item__check use_label_element "入力内容に間違いがないか確認した"]
+</div>
+<div class="form-item form-item--check">
+  [checkbox* your-privacy-policy id:your-privacy-policy class:form-item__check use_label_element "プライバシーポリシーに同意の上、送信する。"]
+</div>
+<div class="form-item form-item--submit">
+  [submit id:your-submit class:form-item__submit "問い合わせる"]
+</div>

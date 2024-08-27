@@ -4,6 +4,9 @@
   background: $color-white;
   padding-top: rem(64);
   padding-bottom: rem(43);
+  @include mq(md) {
+    padding-top: 0;
+  }
 }
 .sp-wrapper__inner {
   padding-left: calc(43 * 100vw / 1440);
@@ -13,6 +16,12 @@
     padding-left: rem(43);
     padding-right: rem(43);
   }
+  @include mq(md) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: rem(16) rem(8);  
+  }
 }
 .sp-contents {
   background: $color-black;
@@ -20,6 +29,12 @@
   padding-bottom: rem(24.03);
   padding-left: rem(7);
   padding-right: rem(7);
+  @include mq(md) {
+    width: 100vw;
+    max-width: 100vw;
+    margin-left: calc(50% - 50vw);
+    flex-shrink: 0;
+  }
 }
 .sp-contents__top {
   max-width:rem(215);
@@ -37,7 +52,7 @@
 .sp-contents__text {
   font-weight: $bold;
   font-size: rem(21.41);
-  letter-spacing: 0.1em;
+  letter-spacing: 0;
   color: $color-white;
   margin-top: rem(13.35);
   display: inline-block;
@@ -46,9 +61,20 @@
 .sp-wrapper__shool {
   display: block;
   margin-top: rem(15);
+  @include mq(md) {
+    max-width:rem(160);
+    width:100%;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top: 0;
+  }
 }
 .sp-wrapper__nav {
   margin-top: rem(29);
+  @include mq(md) {
+    margin-top: rem(0);
+    width: 50%;
+  }
 }
 
 
@@ -64,12 +90,16 @@
   margin-top: rem(44.53);
   font-size: rem(11);
   font-family: $second-font-family;
+  @include mq(md) {
+    display: none;
+  }
 }
 
 // sp-nav
 .sp-nav a{
   display: block;
   font-weight: $bold;
+  text-align: left;
 }
 
 .sp-nav__contact > a {

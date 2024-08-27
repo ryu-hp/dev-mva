@@ -3,7 +3,7 @@
 .program {
   margin-top: rem(64);
 }
-.program__top-head {
+h3.program__top-head {
   background: #585858;
   color: $color-white;
   text-align: center;
@@ -42,9 +42,10 @@
   justify-content: flex-start;
   font-size: rem(16);
 }
-.programItem__list-item {
+li.programItem__list-item {
  padding-left: rem(15);
  position: relative;
+ margin: 0;
 }
 .programItem__list-item::before {
   position: absolute;

@@ -3,3 +3,87 @@
 .contact {
   margin-top: rem(179.25);
 }
+.contact__description {
+  text-align: center;
+  color: $color-white;
+  font-size: rem(14);
+  font-weight: $medium;
+  line-height: calc(24 / 14);
+}
+.contact__form {
+  margin-top: rem(34);
+}
+.contact__form-sub-text {
+  text-align: right;
+  font-size: rem(13);
+  color: $color-white;
+}
+// form style
+
+.wpcf7 {
+  padding: 0;
+  background: transparent;
+  margin: 0 !important;
+  border: none;
+  font-size: rem(16);
+}
+.form-item:not(:first-child) {
+  margin-top: rem(16);
+}
+.form-item {
+  display: flex;
+}
+.form-item__label {
+  flex-basis: rem(175);
+  text-align: left;
+  flex-shrink: 0;
+  font-size: rem(15);
+  color: $color-white;
+  line-height: rem(71);
+}
+.form-item__label--category {
+  color: $color-accent;
+}
+.wpcf7-form-control-wrap {
+  width: 100%;
+}
+.form-item__input{
+  background: $color-white;
+  padding: rem(18) rem(25);
+  font-size: rem(24);
+  letter-spacing: 0.1em;
+  color: $color-black;
+  width: 100%;
+  line-height: 1;
+}
+.form-item__input--textarea {
+  line-height: 1.3;
+}
+.form-item input::placeholder,
+.form-item input:-ms-input-placeholder {
+  color: #aaa;
+}
+
+.wpcf7 input[type=radio],
+.wpcf7 input[type=checkbox] {
+  display: none;
+}
+.wpcf7-list-item-label {
+  padding-left: rem(24);
+  position: relative;
+  color: $color-white;
+}
+.wpcf7-list-item-label::before {
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  transform: translateY(-50%);
+  width: rem(16);
+  height: rem(16);
+  background: $color-white;
+  left: 0;
+}
+.wpcf7 .wpcf7-submit {
+  border-radius: rem(24);
+  width: rem(152);
+}

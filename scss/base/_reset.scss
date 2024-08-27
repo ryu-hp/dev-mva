@@ -141,6 +141,45 @@ select::-ms-expand {
     display: none;
   }
 }
-.vk-mobile-nav-menu-btn {
-  display: none !important;
+.home {
+  #main_content {
+    max-width: 100%;
+  }
+  .l-header__inner.l-container {
+    display: none;
+  }
+  #content,
+  .l-mainContent__inner,
+  .post_content {
+    padding: 0;
+  }
+  h2 {
+    border-top-color:transparent;
+    border-top: none !important;
+    font-family: $base-font-family !important;
+    background: transparent;
+    padding: 0;
+    border-bottom: none;
+    margin: 0;
+  }
+  h3 {
+    border-bottom: none;
+    box-shadow: none;
+    padding-bottom: 0;
+    font-family: $base-font-family !important;
+    margin: 0;
+  }
+  h2::before,
+  h3::before,
+  h3::after {
+    display: none;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+
+  }
+  .p-fixBtnWrap {
+    display: none;
+  }
 }

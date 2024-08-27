@@ -3,6 +3,10 @@
 .wrapper {
   display: flex;
   align-items: flex-start;
+  margin-bottom: 0;
+  @include mq(md) {
+    display: block;
+  }
 }
 .sp-wrapper {
   position: sticky ;
@@ -10,11 +14,19 @@
   left: 0;
   width: calc(316 / 1440 * 100vw);
   max-width:rem(316);
+  @include mq(md) {
+    position: static;
+    width: 100%;
+    max-width: 100%;
+  }
 }
 .pc-wrapper {
   width: calc(1124 / 1440 * 100vw);
   background: $color-theme;
   @media screen and (min-width:1441px) {
+    width: 100%;
+  }
+  @include mq(md) {
     width: 100%;
   }
 }
