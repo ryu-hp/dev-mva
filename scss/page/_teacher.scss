@@ -8,19 +8,31 @@
   display: flex;
   align-items: center;
   gap: rem(24);
+  @include mq(md) {
+    gap: vw(375,16);
+  }
 }
 .teacher__name {
   width: calc(100% - rem(100));
   font-size: rem(32);
   font-weight: $bold;
   letter-spacing: 0.1em;
+  @include mq(md) {
+    font-size: vw(375,20);
+  }
 }
 .teacher__image {
   width: rem(100);
+  @include mq(md) {
+    width: vw(375,100);
+  }
 }
 .teacher__description {
   margin-top: rem(26);
   font-size: rem(16);
   font-weight: $bold;
   letter-spacing: 0.1em;
+  @include mq(md) {
+    font-size: vw(375,16);
+  }
 }

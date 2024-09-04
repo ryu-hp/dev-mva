@@ -6,6 +6,7 @@
   padding-bottom: rem(43);
   @include mq(md) {
     padding-top: 0;
+    padding-bottom: rem(25);
   }
 }
 .sp-wrapper__inner {
@@ -21,6 +22,8 @@
     flex-wrap: wrap;
     align-items: center;
     gap: rem(16) rem(8);  
+    padding-left: vw(375,15);
+    padding-right: vw(375,15);
   }
 }
 .sp-contents {
@@ -57,6 +60,9 @@
   margin-top: rem(13.35);
   display: inline-block;
   text-align: left;
+  @include mq(md) {
+    font-size: vw(375,21);
+  }
 }
 .sp-wrapper__shool {
   display: block;

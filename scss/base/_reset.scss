@@ -148,6 +148,12 @@ select::-ms-expand {
   .l-header__inner.l-container {
     display: none;
   }
+  .l-footer {
+    display: none;
+    @include mq(md) {
+      display: block;
+    }
+  }
   #content,
   .l-mainContent__inner,
   .post_content {

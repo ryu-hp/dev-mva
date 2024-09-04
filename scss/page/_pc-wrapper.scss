@@ -4,7 +4,6 @@
   padding-bottom: rem(198);
   @include mq(md) {
     padding-top: 0;
-    padding-bottom: 0;
   }
 }
 .pc-wrapper__inner {
@@ -13,5 +12,9 @@
   @media screen and (min-width:1441px) {
     padding-left: rem(126);
     padding-right: rem(126);
+  }
+  @include mq(md) {
+    padding-left: vw(375,15);
+    padding-right: vw(375,15);
   }
 }

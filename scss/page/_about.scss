@@ -11,15 +11,24 @@
 }
 .about__main-description {
   font-size: rem(20);
+  @include mq(md) {
+    font-size: vw(375,16);
+  }
 }
 .about__sub-text {
   margin-top: rem(44);
   font-size: rem(18.7);
+  @include mq(md) {
+    font-size: vw(375,16);
+  }
 }
 .about__description {
   font-size: rem(13);
   margin-top: rem(16.29);
   line-height: calc(19.5 / 13);
+  @include mq(md) {
+    font-size: vw(375,13);
+  }
 }
 .about__table {
   margin-top: rem(42.71);
@@ -29,6 +38,9 @@
 }
 .about__table-item {
   display: flex;
+  @include mq(md) {
+    flex-direction: column;
+  }
 }
 .about__table-item--col-3 {
   width: calc(100% / 3);
@@ -44,6 +56,9 @@
   font-size: rem(13);
   line-height: calc(18.2 / 13);
   font-family: $second-font-family;
+  @include mq(md) {
+    font-size: vw(375,14);
+  }
 }
 .about__table-item-head {
   color: $color-white;
@@ -54,6 +69,13 @@
   flex-shrink: 0;
   padding-top: rem(21.41);
   padding-bottom: rem(22.99);
+  @include mq(md) {
+    padding-top:vw(375,12);
+    padding-bottom: vw(375,12);
+    flex-basis: auto;
+    flex-shrink: 1;
+    width: 100%;
+  }
 }
 .about__table-item-description {
   background: $color-white;
@@ -61,6 +83,13 @@
   width: 100%;
   padding-right: rem(12.82);
   padding-left: rem(12.82);
+  @include mq(md) {
+    padding-right: vw(375,12.82);
+    padding-left: vw(375,12.82);
+    padding-top:vw(375,12);
+    padding-bottom: vw(375,12);
+    height: 100%;
+  }
 }
 .about__table-item-description--small {
   font-size: rem(10.4);

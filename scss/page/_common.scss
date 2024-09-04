@@ -17,6 +17,9 @@
     font-size: rem(16);
     font-weight: 600;
     letter-spacing: 1.6px;
+    @include mq(md) {
+        font-size: vw(375,16);
+    }
 }
 h2.section-title__main {
     font-size: rem(64);
@@ -25,4 +28,7 @@ h2.section-title__main {
     margin-top: rem(7);
     text-transform: uppercase ;
     font-weight: $normal;
+    @include mq(md) {
+        font-size: vw(375,40);
+    }
 }

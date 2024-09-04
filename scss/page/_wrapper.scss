@@ -4,6 +4,10 @@
   display: flex;
   align-items: flex-start;
   margin-bottom: 0;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  background: $color-theme;
+  justify-content: center;
   @include mq(md) {
     display: block;
   }
@@ -14,6 +18,9 @@
   left: 0;
   width: calc(316 / 1440 * 100vw);
   max-width:rem(316);
+  @media screen and (min-width:1441px) {
+    width: 100%;
+  }
   @include mq(md) {
     position: static;
     width: 100%;
@@ -23,6 +30,7 @@
 .pc-wrapper {
   width: calc(1124 / 1440 * 100vw);
   background: $color-theme;
+  max-width: rem(1124);
   @media screen and (min-width:1441px) {
     width: 100%;
   }

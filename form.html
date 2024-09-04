@@ -14,11 +14,15 @@
   <label for="your-content" class="form-item__label">お問い合わせ内容</label>
   [textarea* your-content id:your-content class:form-item__input class:form-item__input--textarea]
 </div>
-<div class="form-item form-item--check">
-  [checkbox* your-check id:your-check class:form-item__check use_label_element "入力内容に間違いがないか確認した"]
-</div>
-<div class="form-item form-item--check">
-  [checkbox* your-privacy-policy id:your-privacy-policy class:form-item__check use_label_element "プライバシーポリシーに同意の上、送信する。"]
+<div class="form-item form-item--checkArea">
+  <div class="form-item__check-wrapper">
+    <div class="form-item form-item--check">
+      [checkbox* your-check id:your-check class:form-item__check use_label_element "入力内容に間違いがないか確認した"]
+    </div>
+    <div class="form-item form-item--check">
+      [checkbox* your-privacy-policy id:your-privacy-policy class:form-item__check use_label_element "プライバシーポリシーに同意の上、送信する。"]
+    </div>
+  </div>
 </div>
 <div class="form-item form-item--submit">
   [submit id:your-submit class:form-item__submit "問い合わせる"]

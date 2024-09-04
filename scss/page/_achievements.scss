@@ -11,7 +11,13 @@
   gap: rem(25.75) rem(24);
   align-items: center;
   flex-wrap: wrap;
+  @include mq(md) {
+    gap: vw(375,20);
+  }
 }
 .achievements__content {
   width: calc((100% - rem(24)) / 2);
+  @include mq(md) {
+    width: 100%;
+  }
 }

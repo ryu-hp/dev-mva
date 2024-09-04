@@ -7,4 +7,10 @@
   width: rem(70);
   height: rem(70);
   cursor: pointer;
+  @include mq(md) {
+    width: vw(375,50);
+    height: vw(375,50);
+    bottom: vw(375,75);
+    right: vw(375,24);
+  }
 }
