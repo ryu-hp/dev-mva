@@ -44,7 +44,7 @@ h3.program__top-head {
   }
 }
 .programItem__title {
-  flex-basis: rem(231);
+  flex-basis: rem(181);
   flex-shrink: 0;
   font-size: rem(14);
   @include mq(md) {
@@ -60,6 +60,9 @@ h3.program__top-head {
   @include mq(md) {
     font-size: vw(375,16);
   }
+}
+li.programItem__list-item + li.programItem__list-item {
+ margin-top: rem(8);
 }
 li.programItem__list-item {
  padding-left: rem(15);

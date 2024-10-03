@@ -347,7 +347,7 @@ select::-ms-expand {
 }
 
 .sp-contents {
-  background: #333;
+  background: #000;
   padding-top: 1.39625rem;
   padding-bottom: 1.501875rem;
   padding-left: 0.4375rem;
@@ -528,7 +528,7 @@ select::-ms-expand {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  padding: 1.70125rem 1.6875rem;
+  padding: 1.70125rem 0.84375rem;
   width: 100%;
   height: 100%;
 }
@@ -549,20 +549,13 @@ select::-ms-expand {
 }
 
 .fv__text {
-  background: -webkit-gradient(linear, right top, left top, from(#F16F63), color-stop(50%, #FAF9F5), to(#F16F63));
-  background: linear-gradient(-90deg, #F16F63 0%, #FAF9F5 50%, #F16F63 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 7.7471875rem;
+  font-size: clamp(1.375rem, 1.375rem + 0.0019366197 * (100vw - 375px), 1.58125rem);
+  text-shadow: 0 0 clamp(0.25rem, 0.25rem + 0.0003521127 * (100vw - 375px), 0.2875rem) #000;
+  color: #fff;
 }
 @media screen and (max-width: 1024px) {
   .fv__text {
-    font-size: 5rem;
-  }
-}
-@media screen and (max-width: 767px) {
-  .fv__text {
-    font-size: 11.7333333333vw;
+    font-size: clamp(1rem, 1rem + 0.0014084507 * (100vw - 375px), 1.15rem);
   }
 }
 
@@ -573,7 +566,6 @@ select::-ms-expand {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 0.6875rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -852,8 +844,8 @@ h3.program__top-head {
 }
 
 .programItem__title {
-  -ms-flex-preferred-size: 14.4375rem;
-      flex-basis: 14.4375rem;
+  -ms-flex-preferred-size: 11.3125rem;
+      flex-basis: 11.3125rem;
   -ms-flex-negative: 0;
       flex-shrink: 0;
   font-size: 0.875rem;
@@ -878,6 +870,10 @@ h3.program__top-head {
   .programItem__description {
     font-size: 4.2666666667vw;
   }
+}
+
+li.programItem__list-item + li.programItem__list-item {
+  margin-top: 0.5rem;
 }
 
 li.programItem__list-item {
